@@ -1,0 +1,2 @@
+# The item you want to get
+ITEMS_OF_INTEREST = ('T4_BAG', 'T5_BAG', 'T4_OFF_TORCH', 'T4_OFF_SHIELD@3', 'T4_OFF_LAMP_UNDEAD@3')
