@@ -9,7 +9,7 @@ class Item:
         self.item_name = item_name
         self.quality =  quality
         
-        # Important info about Item
+        # If application is Stoped by not "artefact found"
         self._isStopped = False
         
         self.current_price_response = self._item_response()
