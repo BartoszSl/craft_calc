@@ -26,7 +26,7 @@ class Ressource:
             
     def _best_price_calc(self):
         prices = []
-        best_price = 1
+        best_price = 0
         cities_price = []
         
         def filter_func(x):
@@ -41,8 +41,8 @@ class Ressource:
                 cities_price.append({'city': city, 'price': market_prices})  
                 prices.append(market_prices)
         
-        if not len(prices) == 0:
-            best_price = max(prices)
+        if len(prices) > 0:
+            best_price = min(prices)
             self.finding_cityPrice = list(filter(filter_func, cities_price))[0]  
         else:
             self.canCraft = False
