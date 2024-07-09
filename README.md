@@ -1,4 +1,4 @@
-# Albion online craft calculator
+# Albion online craft calculator *Workiing at own item dict
 
 My first Python project dedicated to learn API in python, understand more about OOP and help my friends to earn virtual money in Albion Online.
  
